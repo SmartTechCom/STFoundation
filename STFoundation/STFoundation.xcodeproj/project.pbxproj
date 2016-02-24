@@ -7,256 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074B14991C7C6B2F00F51301 /* STFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14981C7C6B2F00F51301 /* STFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14A01C7C6B2F00F51301 /* STFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B14951C7C6B2F00F51301 /* STFoundation.framework */; };
-		074B14A51C7C6B2F00F51301 /* STFoundationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14A41C7C6B2F00F51301 /* STFoundationTests.m */; };
-		074B14CE1C7C6BFA00F51301 /* NSString+STStringToDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14B11C7C6BFA00F51301 /* NSString+STStringToDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14CF1C7C6BFA00F51301 /* NSString+STStringToDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14B21C7C6BFA00F51301 /* NSString+STStringToDictionary.m */; };
-		074B14D01C7C6BFA00F51301 /* NSTimer+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14B41C7C6BFA00F51301 /* NSTimer+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14D11C7C6BFA00F51301 /* NSTimer+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14B51C7C6BFA00F51301 /* NSTimer+Extension.m */; };
-		074B14D21C7C6BFA00F51301 /* NSTimer+STBlockSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14B61C7C6BFA00F51301 /* NSTimer+STBlockSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14D31C7C6BFA00F51301 /* NSTimer+STBlockSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14B71C7C6BFA00F51301 /* NSTimer+STBlockSupport.m */; };
-		074B14D41C7C6BFA00F51301 /* UIButton+STAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14B91C7C6BFA00F51301 /* UIButton+STAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14D51C7C6BFA00F51301 /* UIButton+STAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14BA1C7C6BFA00F51301 /* UIButton+STAnimation.m */; };
-		074B14D61C7C6BFA00F51301 /* UIButton+STBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14BB1C7C6BFA00F51301 /* UIButton+STBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14D71C7C6BFA00F51301 /* UIButton+STBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14BC1C7C6BFA00F51301 /* UIButton+STBlock.m */; };
-		074B14D81C7C6BFA00F51301 /* UIColor+STAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14BE1C7C6BFA00F51301 /* UIColor+STAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14D91C7C6BFA00F51301 /* UIColor+STAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14BF1C7C6BFA00F51301 /* UIColor+STAddition.m */; };
-		074B14DA1C7C6BFA00F51301 /* UIImage+STAlpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14C11C7C6BFA00F51301 /* UIImage+STAlpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14DB1C7C6BFA00F51301 /* UIImage+STAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14C21C7C6BFA00F51301 /* UIImage+STAlpha.m */; };
-		074B14DC1C7C6BFA00F51301 /* UIImage+STShape.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14C31C7C6BFA00F51301 /* UIImage+STShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14DD1C7C6BFA00F51301 /* UIImage+STShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14C41C7C6BFA00F51301 /* UIImage+STShape.m */; };
-		074B14DE1C7C6BFA00F51301 /* UIView+STAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14C61C7C6BFA00F51301 /* UIView+STAddition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14DF1C7C6BFA00F51301 /* UIView+STAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14C71C7C6BFA00F51301 /* UIView+STAddition.m */; };
-		074B14E01C7C6BFA00F51301 /* UIView+STRoundCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14C81C7C6BFA00F51301 /* UIView+STRoundCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14E11C7C6BFA00F51301 /* UIView+STRoundCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14C91C7C6BFA00F51301 /* UIView+STRoundCorner.m */; };
-		074B14E21C7C6BFA00F51301 /* STBaseButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B14CC1C7C6BFA00F51301 /* STBaseButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		074B14E31C7C6BFA00F51301 /* STBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B14CD1C7C6BFA00F51301 /* STBaseButton.m */; };
+		074B16071C7D9A0E00F51301 /* STFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 074B16061C7D9A0E00F51301 /* STFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		074B160E1C7D9A0E00F51301 /* STFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074B16031C7D9A0E00F51301 /* STFoundation.framework */; };
+		074B16131C7D9A0E00F51301 /* STFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B16121C7D9A0E00F51301 /* STFoundationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		074B14A11C7C6B2F00F51301 /* PBXContainerItemProxy */ = {
+		074B160F1C7D9A0E00F51301 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 074B148C1C7C6B2F00F51301 /* Project object */;
+			containerPortal = 074B15FA1C7D9A0E00F51301 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 074B14941C7C6B2F00F51301;
+			remoteGlobalIDString = 074B16021C7D9A0E00F51301;
 			remoteInfo = STFoundation;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		074B14951C7C6B2F00F51301 /* STFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		074B14981C7C6B2F00F51301 /* STFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFoundation.h; sourceTree = "<group>"; };
-		074B149A1C7C6B2F00F51301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		074B149F1C7C6B2F00F51301 /* STFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		074B14A41C7C6B2F00F51301 /* STFoundationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STFoundationTests.m; sourceTree = "<group>"; };
-		074B14A61C7C6B2F00F51301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		074B14B11C7C6BFA00F51301 /* NSString+STStringToDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STStringToDictionary.h"; sourceTree = "<group>"; };
-		074B14B21C7C6BFA00F51301 /* NSString+STStringToDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STStringToDictionary.m"; sourceTree = "<group>"; };
-		074B14B41C7C6BFA00F51301 /* NSTimer+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Extension.h"; sourceTree = "<group>"; };
-		074B14B51C7C6BFA00F51301 /* NSTimer+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Extension.m"; sourceTree = "<group>"; };
-		074B14B61C7C6BFA00F51301 /* NSTimer+STBlockSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+STBlockSupport.h"; sourceTree = "<group>"; };
-		074B14B71C7C6BFA00F51301 /* NSTimer+STBlockSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+STBlockSupport.m"; sourceTree = "<group>"; };
-		074B14B91C7C6BFA00F51301 /* UIButton+STAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+STAnimation.h"; sourceTree = "<group>"; };
-		074B14BA1C7C6BFA00F51301 /* UIButton+STAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+STAnimation.m"; sourceTree = "<group>"; };
-		074B14BB1C7C6BFA00F51301 /* UIButton+STBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+STBlock.h"; sourceTree = "<group>"; };
-		074B14BC1C7C6BFA00F51301 /* UIButton+STBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+STBlock.m"; sourceTree = "<group>"; };
-		074B14BE1C7C6BFA00F51301 /* UIColor+STAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+STAddition.h"; sourceTree = "<group>"; };
-		074B14BF1C7C6BFA00F51301 /* UIColor+STAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+STAddition.m"; sourceTree = "<group>"; };
-		074B14C11C7C6BFA00F51301 /* UIImage+STAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+STAlpha.h"; sourceTree = "<group>"; };
-		074B14C21C7C6BFA00F51301 /* UIImage+STAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+STAlpha.m"; sourceTree = "<group>"; };
-		074B14C31C7C6BFA00F51301 /* UIImage+STShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+STShape.h"; sourceTree = "<group>"; };
-		074B14C41C7C6BFA00F51301 /* UIImage+STShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+STShape.m"; sourceTree = "<group>"; };
-		074B14C61C7C6BFA00F51301 /* UIView+STAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STAddition.h"; sourceTree = "<group>"; };
-		074B14C71C7C6BFA00F51301 /* UIView+STAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STAddition.m"; sourceTree = "<group>"; };
-		074B14C81C7C6BFA00F51301 /* UIView+STRoundCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STRoundCorner.h"; sourceTree = "<group>"; };
-		074B14C91C7C6BFA00F51301 /* UIView+STRoundCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STRoundCorner.m"; sourceTree = "<group>"; };
-		074B14CC1C7C6BFA00F51301 /* STBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseButton.h; sourceTree = "<group>"; };
-		074B14CD1C7C6BFA00F51301 /* STBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseButton.m; sourceTree = "<group>"; };
+		074B16031C7D9A0E00F51301 /* STFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		074B16061C7D9A0E00F51301 /* STFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STFoundation.h; sourceTree = "<group>"; };
+		074B16081C7D9A0E00F51301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074B160D1C7D9A0E00F51301 /* STFoundationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STFoundationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074B16121C7D9A0E00F51301 /* STFoundationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STFoundationTests.swift; sourceTree = "<group>"; };
+		074B16141C7D9A0E00F51301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		074B14911C7C6B2F00F51301 /* Frameworks */ = {
+		074B15FF1C7D9A0E00F51301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		074B149C1C7C6B2F00F51301 /* Frameworks */ = {
+		074B160A1C7D9A0E00F51301 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B14A01C7C6B2F00F51301 /* STFoundation.framework in Frameworks */,
+				074B160E1C7D9A0E00F51301 /* STFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		074B148B1C7C6B2F00F51301 = {
+		074B15F91C7D9A0E00F51301 = {
 			isa = PBXGroup;
 			children = (
-				074B14971C7C6B2F00F51301 /* STFoundation */,
-				074B14A31C7C6B2F00F51301 /* STFoundationTests */,
-				074B14961C7C6B2F00F51301 /* Products */,
+				074B16051C7D9A0E00F51301 /* STFoundation */,
+				074B16111C7D9A0E00F51301 /* STFoundationTests */,
+				074B16041C7D9A0E00F51301 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		074B14961C7C6B2F00F51301 /* Products */ = {
+		074B16041C7D9A0E00F51301 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				074B14951C7C6B2F00F51301 /* STFoundation.framework */,
-				074B149F1C7C6B2F00F51301 /* STFoundationTests.xctest */,
+				074B16031C7D9A0E00F51301 /* STFoundation.framework */,
+				074B160D1C7D9A0E00F51301 /* STFoundationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		074B14971C7C6B2F00F51301 /* STFoundation */ = {
+		074B16051C7D9A0E00F51301 /* STFoundation */ = {
 			isa = PBXGroup;
 			children = (
-				074B14AF1C7C6BFA00F51301 /* Categories */,
-				074B14CA1C7C6BFA00F51301 /* Extensions */,
-				074B14981C7C6B2F00F51301 /* STFoundation.h */,
-				074B149A1C7C6B2F00F51301 /* Info.plist */,
+				074B16061C7D9A0E00F51301 /* STFoundation.h */,
+				074B16081C7D9A0E00F51301 /* Info.plist */,
 			);
 			path = STFoundation;
 			sourceTree = "<group>";
 		};
-		074B14A31C7C6B2F00F51301 /* STFoundationTests */ = {
+		074B16111C7D9A0E00F51301 /* STFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
-				074B14A41C7C6B2F00F51301 /* STFoundationTests.m */,
-				074B14A61C7C6B2F00F51301 /* Info.plist */,
+				074B16121C7D9A0E00F51301 /* STFoundationTests.swift */,
+				074B16141C7D9A0E00F51301 /* Info.plist */,
 			);
 			path = STFoundationTests;
-			sourceTree = "<group>";
-		};
-		074B14AF1C7C6BFA00F51301 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				074B14B01C7C6BFA00F51301 /* NSString */,
-				074B14B31C7C6BFA00F51301 /* NSTimer */,
-				074B14B81C7C6BFA00F51301 /* UIButton */,
-				074B14BD1C7C6BFA00F51301 /* UIColor */,
-				074B14C01C7C6BFA00F51301 /* UIImage */,
-				074B14C51C7C6BFA00F51301 /* UIView */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		074B14B01C7C6BFA00F51301 /* NSString */ = {
-			isa = PBXGroup;
-			children = (
-				074B14B11C7C6BFA00F51301 /* NSString+STStringToDictionary.h */,
-				074B14B21C7C6BFA00F51301 /* NSString+STStringToDictionary.m */,
-			);
-			path = NSString;
-			sourceTree = "<group>";
-		};
-		074B14B31C7C6BFA00F51301 /* NSTimer */ = {
-			isa = PBXGroup;
-			children = (
-				074B14B41C7C6BFA00F51301 /* NSTimer+Extension.h */,
-				074B14B51C7C6BFA00F51301 /* NSTimer+Extension.m */,
-				074B14B61C7C6BFA00F51301 /* NSTimer+STBlockSupport.h */,
-				074B14B71C7C6BFA00F51301 /* NSTimer+STBlockSupport.m */,
-			);
-			path = NSTimer;
-			sourceTree = "<group>";
-		};
-		074B14B81C7C6BFA00F51301 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				074B14B91C7C6BFA00F51301 /* UIButton+STAnimation.h */,
-				074B14BA1C7C6BFA00F51301 /* UIButton+STAnimation.m */,
-				074B14BB1C7C6BFA00F51301 /* UIButton+STBlock.h */,
-				074B14BC1C7C6BFA00F51301 /* UIButton+STBlock.m */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
-		074B14BD1C7C6BFA00F51301 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				074B14BE1C7C6BFA00F51301 /* UIColor+STAddition.h */,
-				074B14BF1C7C6BFA00F51301 /* UIColor+STAddition.m */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		074B14C01C7C6BFA00F51301 /* UIImage */ = {
-			isa = PBXGroup;
-			children = (
-				074B14C11C7C6BFA00F51301 /* UIImage+STAlpha.h */,
-				074B14C21C7C6BFA00F51301 /* UIImage+STAlpha.m */,
-				074B14C31C7C6BFA00F51301 /* UIImage+STShape.h */,
-				074B14C41C7C6BFA00F51301 /* UIImage+STShape.m */,
-			);
-			path = UIImage;
-			sourceTree = "<group>";
-		};
-		074B14C51C7C6BFA00F51301 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				074B14C61C7C6BFA00F51301 /* UIView+STAddition.h */,
-				074B14C71C7C6BFA00F51301 /* UIView+STAddition.m */,
-				074B14C81C7C6BFA00F51301 /* UIView+STRoundCorner.h */,
-				074B14C91C7C6BFA00F51301 /* UIView+STRoundCorner.m */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		074B14CA1C7C6BFA00F51301 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				074B14CB1C7C6BFA00F51301 /* UIButton */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		074B14CB1C7C6BFA00F51301 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				074B14CC1C7C6BFA00F51301 /* STBaseButton.h */,
-				074B14CD1C7C6BFA00F51301 /* STBaseButton.m */,
-			);
-			path = UIButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		074B14921C7C6B2F00F51301 /* Headers */ = {
+		074B16001C7D9A0E00F51301 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B14DE1C7C6BFA00F51301 /* UIView+STAddition.h in Headers */,
-				074B14DA1C7C6BFA00F51301 /* UIImage+STAlpha.h in Headers */,
-				074B14D81C7C6BFA00F51301 /* UIColor+STAddition.h in Headers */,
-				074B14D41C7C6BFA00F51301 /* UIButton+STAnimation.h in Headers */,
-				074B14D61C7C6BFA00F51301 /* UIButton+STBlock.h in Headers */,
-				074B14DC1C7C6BFA00F51301 /* UIImage+STShape.h in Headers */,
-				074B14E21C7C6BFA00F51301 /* STBaseButton.h in Headers */,
-				074B14991C7C6B2F00F51301 /* STFoundation.h in Headers */,
-				074B14D01C7C6BFA00F51301 /* NSTimer+Extension.h in Headers */,
-				074B14D21C7C6BFA00F51301 /* NSTimer+STBlockSupport.h in Headers */,
-				074B14CE1C7C6BFA00F51301 /* NSString+STStringToDictionary.h in Headers */,
-				074B14E01C7C6BFA00F51301 /* UIView+STRoundCorner.h in Headers */,
+				074B16071C7D9A0E00F51301 /* STFoundation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		074B14941C7C6B2F00F51301 /* STFoundation */ = {
+		074B16021C7D9A0E00F51301 /* STFoundation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 074B14A91C7C6B2F00F51301 /* Build configuration list for PBXNativeTarget "STFoundation" */;
+			buildConfigurationList = 074B16171C7D9A0E00F51301 /* Build configuration list for PBXNativeTarget "STFoundation" */;
 			buildPhases = (
-				074B14901C7C6B2F00F51301 /* Sources */,
-				074B14911C7C6B2F00F51301 /* Frameworks */,
-				074B14921C7C6B2F00F51301 /* Headers */,
-				074B14931C7C6B2F00F51301 /* Resources */,
+				074B15FE1C7D9A0E00F51301 /* Sources */,
+				074B15FF1C7D9A0E00F51301 /* Frameworks */,
+				074B16001C7D9A0E00F51301 /* Headers */,
+				074B16011C7D9A0E00F51301 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -264,71 +115,72 @@
 			);
 			name = STFoundation;
 			productName = STFoundation;
-			productReference = 074B14951C7C6B2F00F51301 /* STFoundation.framework */;
+			productReference = 074B16031C7D9A0E00F51301 /* STFoundation.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		074B149E1C7C6B2F00F51301 /* STFoundationTests */ = {
+		074B160C1C7D9A0E00F51301 /* STFoundationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 074B14AC1C7C6B2F00F51301 /* Build configuration list for PBXNativeTarget "STFoundationTests" */;
+			buildConfigurationList = 074B161A1C7D9A0E00F51301 /* Build configuration list for PBXNativeTarget "STFoundationTests" */;
 			buildPhases = (
-				074B149B1C7C6B2F00F51301 /* Sources */,
-				074B149C1C7C6B2F00F51301 /* Frameworks */,
-				074B149D1C7C6B2F00F51301 /* Resources */,
+				074B16091C7D9A0E00F51301 /* Sources */,
+				074B160A1C7D9A0E00F51301 /* Frameworks */,
+				074B160B1C7D9A0E00F51301 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				074B14A21C7C6B2F00F51301 /* PBXTargetDependency */,
+				074B16101C7D9A0E00F51301 /* PBXTargetDependency */,
 			);
 			name = STFoundationTests;
 			productName = STFoundationTests;
-			productReference = 074B149F1C7C6B2F00F51301 /* STFoundationTests.xctest */;
+			productReference = 074B160D1C7D9A0E00F51301 /* STFoundationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		074B148C1C7C6B2F00F51301 /* Project object */ = {
+		074B15FA1C7D9A0E00F51301 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "st company";
 				TargetAttributes = {
-					074B14941C7C6B2F00F51301 = {
+					074B16021C7D9A0E00F51301 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
-					074B149E1C7C6B2F00F51301 = {
+					074B160C1C7D9A0E00F51301 = {
 						CreatedOnToolsVersion = 7.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 074B148F1C7C6B2F00F51301 /* Build configuration list for PBXProject "STFoundation" */;
+			buildConfigurationList = 074B15FD1C7D9A0E00F51301 /* Build configuration list for PBXProject "STFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 074B148B1C7C6B2F00F51301;
-			productRefGroup = 074B14961C7C6B2F00F51301 /* Products */;
+			mainGroup = 074B15F91C7D9A0E00F51301;
+			productRefGroup = 074B16041C7D9A0E00F51301 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				074B14941C7C6B2F00F51301 /* STFoundation */,
-				074B149E1C7C6B2F00F51301 /* STFoundationTests */,
+				074B16021C7D9A0E00F51301 /* STFoundation */,
+				074B160C1C7D9A0E00F51301 /* STFoundationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		074B14931C7C6B2F00F51301 /* Resources */ = {
+		074B16011C7D9A0E00F51301 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		074B149D1C7C6B2F00F51301 /* Resources */ = {
+		074B160B1C7D9A0E00F51301 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,44 +190,33 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		074B14901C7C6B2F00F51301 /* Sources */ = {
+		074B15FE1C7D9A0E00F51301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B14DD1C7C6BFA00F51301 /* UIImage+STShape.m in Sources */,
-				074B14D71C7C6BFA00F51301 /* UIButton+STBlock.m in Sources */,
-				074B14E31C7C6BFA00F51301 /* STBaseButton.m in Sources */,
-				074B14DF1C7C6BFA00F51301 /* UIView+STAddition.m in Sources */,
-				074B14E11C7C6BFA00F51301 /* UIView+STRoundCorner.m in Sources */,
-				074B14D11C7C6BFA00F51301 /* NSTimer+Extension.m in Sources */,
-				074B14DB1C7C6BFA00F51301 /* UIImage+STAlpha.m in Sources */,
-				074B14D91C7C6BFA00F51301 /* UIColor+STAddition.m in Sources */,
-				074B14D51C7C6BFA00F51301 /* UIButton+STAnimation.m in Sources */,
-				074B14CF1C7C6BFA00F51301 /* NSString+STStringToDictionary.m in Sources */,
-				074B14D31C7C6BFA00F51301 /* NSTimer+STBlockSupport.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		074B149B1C7C6B2F00F51301 /* Sources */ = {
+		074B16091C7D9A0E00F51301 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				074B14A51C7C6B2F00F51301 /* STFoundationTests.m in Sources */,
+				074B16131C7D9A0E00F51301 /* STFoundationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		074B14A21C7C6B2F00F51301 /* PBXTargetDependency */ = {
+		074B16101C7D9A0E00F51301 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 074B14941C7C6B2F00F51301 /* STFoundation */;
-			targetProxy = 074B14A11C7C6B2F00F51301 /* PBXContainerItemProxy */;
+			target = 074B16021C7D9A0E00F51301 /* STFoundation */;
+			targetProxy = 074B160F1C7D9A0E00F51301 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		074B14A71C7C6B2F00F51301 /* Debug */ = {
+		074B16151C7D9A0E00F51301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -416,13 +257,14 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		074B14A81C7C6B2F00F51301 /* Release */ = {
+		074B16161C7D9A0E00F51301 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -463,7 +305,7 @@
 			};
 			name = Release;
 		};
-		074B14AA1C7C6B2F00F51301 /* Debug */ = {
+		074B16181C7D9A0E00F51301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -479,7 +321,7 @@
 			};
 			name = Debug;
 		};
-		074B14AB1C7C6B2F00F51301 /* Release */ = {
+		074B16191C7D9A0E00F51301 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
@@ -495,7 +337,7 @@
 			};
 			name = Release;
 		};
-		074B14AD1C7C6B2F00F51301 /* Debug */ = {
+		074B161B1C7D9A0E00F51301 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = STFoundationTests/Info.plist;
@@ -505,7 +347,7 @@
 			};
 			name = Debug;
 		};
-		074B14AE1C7C6B2F00F51301 /* Release */ = {
+		074B161C1C7D9A0E00F51301 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = STFoundationTests/Info.plist;
@@ -518,34 +360,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		074B148F1C7C6B2F00F51301 /* Build configuration list for PBXProject "STFoundation" */ = {
+		074B15FD1C7D9A0E00F51301 /* Build configuration list for PBXProject "STFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				074B14A71C7C6B2F00F51301 /* Debug */,
-				074B14A81C7C6B2F00F51301 /* Release */,
+				074B16151C7D9A0E00F51301 /* Debug */,
+				074B16161C7D9A0E00F51301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		074B14A91C7C6B2F00F51301 /* Build configuration list for PBXNativeTarget "STFoundation" */ = {
+		074B16171C7D9A0E00F51301 /* Build configuration list for PBXNativeTarget "STFoundation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				074B14AA1C7C6B2F00F51301 /* Debug */,
-				074B14AB1C7C6B2F00F51301 /* Release */,
+				074B16181C7D9A0E00F51301 /* Debug */,
+				074B16191C7D9A0E00F51301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		074B14AC1C7C6B2F00F51301 /* Build configuration list for PBXNativeTarget "STFoundationTests" */ = {
+		074B161A1C7D9A0E00F51301 /* Build configuration list for PBXNativeTarget "STFoundationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				074B14AD1C7C6B2F00F51301 /* Debug */,
-				074B14AE1C7C6B2F00F51301 /* Release */,
+				074B161B1C7D9A0E00F51301 /* Debug */,
+				074B161C1C7D9A0E00F51301 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 074B148C1C7C6B2F00F51301 /* Project object */;
+	rootObject = 074B15FA1C7D9A0E00F51301 /* Project object */;
 }

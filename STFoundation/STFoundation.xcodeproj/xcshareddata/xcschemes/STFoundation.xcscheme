@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "074B14941C7C6B2F00F51301"
+               BlueprintIdentifier = "074B16021C7D9A0E00F51301"
                BuildableName = "STFoundation.framework"
                BlueprintName = "STFoundation"
                ReferencedContainer = "container:STFoundation.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "074B149E1C7C6B2F00F51301"
+               BlueprintIdentifier = "074B160C1C7D9A0E00F51301"
                BuildableName = "STFoundationTests.xctest"
                BlueprintName = "STFoundationTests"
                ReferencedContainer = "container:STFoundation.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "074B14941C7C6B2F00F51301"
+            BlueprintIdentifier = "074B16021C7D9A0E00F51301"
             BuildableName = "STFoundation.framework"
             BlueprintName = "STFoundation"
             ReferencedContainer = "container:STFoundation.xcodeproj">
@@ -64,7 +64,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "074B14941C7C6B2F00F51301"
+            BlueprintIdentifier = "074B16021C7D9A0E00F51301"
             BuildableName = "STFoundation.framework"
             BlueprintName = "STFoundation"
             ReferencedContainer = "container:STFoundation.xcodeproj">
@@ -82,7 +82,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "074B14941C7C6B2F00F51301"
+            BlueprintIdentifier = "074B16021C7D9A0E00F51301"
             BuildableName = "STFoundation.framework"
             BlueprintName = "STFoundation"
             ReferencedContainer = "container:STFoundation.xcodeproj">
